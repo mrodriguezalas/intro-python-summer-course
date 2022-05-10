@@ -58,7 +58,7 @@ Lets create an environment and install Jupyter Notebooks:
 - Activate the environment where you installed Jupyter Notebooks.
 - (Optional) Create a new directory to have all your notebooks in using the `mkdir` command. Example: `mkdir Jupyter`, this creates a new folder called "Jupyter" on my current directory. Enter your newly created folder with `cd`, in my case `cd Jupyter`
 - Run Jupyter Notebooks with `jupyter notebook`
-- You should now see a window like this one. From here you can create new notebooks and run jupyter notebooks.
+- You should now see a window like this one on your browser. From here you can create new notebooks and run jupyter notebooks.
 
 ![Anaconda3](images/jupyter.png)
 
@@ -79,3 +79,37 @@ Lets create an environment and install Jupyter Notebooks:
 - You should now see your code output below the cell. In jupyter each code cell can have its own output.
 
 ![Anaconda3](images/out.png)
+
+- Congratulations. You can now run Jupyter Notebooks. When you are finished you can just close the Jupyter tab from your browser.
+
+## Step 4. Running Jupyter Notebooks from Google Colaboratory.
+Google Colab is Google's online version of Jupyter Notebooks. It provides ease of access to coding with Python and other advanced features such as using GPUs to run your code.
+
+Requirements for this section:
+- A Google account.
+
+- Go to you Google Drive at [Drive](drive.google.com). Log in to your preferred account.
+- (Optional) Create a new folder to run your notebooks from.
+- From the top of the page click on New
+
+![Anaconda3](images/new_g.png)
+
+- Go to More -> Connect more apps
+
+![Anaconda3](images/more_apps.png)
+
+- From the search bar type "Colaboratory". The following result will show up.
+
+![Anaconda3](images/collab.png)
+
+- Click on Install and grant permissions.
+- Click on Done and go back to your Drive. If you click on New, you should now see the ![Anaconda3](images/colab_new.png) option. Click on it to create a new notebook.
+- You can change the name of your notebook from the top section, rename your notebook to something else.
+
+![Anaconda3](images/first_notebook.png)
+
+- Similar to Jupyter Notebook, you can run Python code and create new code cells. Run a simple `print("Hello from Google Colab!")` and run the code using the Run button.
+
+![Anaconda3](images/colab_out.png)
+
+- Congratulations you have just installed Google Colab on your Drive and ran your fist Python code!
