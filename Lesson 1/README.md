@@ -113,3 +113,48 @@ Requirements for this section:
 ![Anaconda3](images/colab_out.png)
 
 - Congratulations you have just installed Google Colab on your Drive and ran your fist Python code!
+
+## Step 5. Installing a code editor
+Code editors allow us to write and format code in different programming languages, as well as extra features such as syntaxis, code completion, some code editors go beyond this adding debugging and even Git support for version control. On this tutorial we will use VSCode for a short example, but feel free to use your preferred editor if you have one, some popular ones:
+- [Sublime Text](http://www.sublimetext.com/)
+- [Atom](https://atom.io/)
+
+We will be using [VSCode](https://code.visualstudio.com/)
+- Download and install VSCode
+- From the File menu open a Folder. File -> Open Folder... open the Jupyter folder we created on a previous step, or create a new folder to store your new files.
+- If asked about "Do your trust the authors?" click "Yes".
+- Once installed, open your VSCode application and click on "New File".
+
+![New File](images/new_file.png)
+
+- Lets create a Python file. Name your new file as `hello.py`, don't forget about the ".py" extension at the end. This lets our computer know this is a Python file.
+- Lets add some basic code. Add a simple `print` statement such as `print("Hello from a Python file")`
+- Eventually we could run Python code directly in the VSCode terminal, but for this lesson we will be using miniconda3. Open your miniconda3 terminal.
+- Navigate to the folder where you created your `.py` file. Remember you can use the `cd` command to navigate between folders.
+
+![File location](images/location.png)
+
+- Now that we are in the correct folder, where our `.py` file is, we can run `python hello.py` to use the Python interpreter from Anaconda. You should see the text output from the Python file.
+
+![Hello py](images/hello_py.png)
+
+- Congratulations, you now know how to create simple `.py` files as well as `.ipynb` with Jupyter Notebooks, each has its uses as we will see in the next lessons
+
+## Step 6. Installing Git
+When collaborating with others, tools like version control are incredibly useful, code often breaks and people make mistakes, and it's really useful to have a tracking system where we can revert changes and go back to previous versions.
+
+Git is a free and open version control system. It makes use of the branching model, which allows you to work on different versions of your code, and to publish and share only the ones you know are ready. We will use Git and Github (an online version control system) to learn how to interact with code repositories and keep different versions of our code.
+
+- Create a [Github](https://github.com/) account.
+- Download the correct Git version from [this link](https://git-scm.com/downloads)
+- Run the installer and if you are on Windows, make sure to check:
+    - [x] Windows Explorer Integration
+    - [x] Git Bash Here
+    - [x] Git GUI Here
+You can leave other installation components as default. Click on Next and select "Use Visual Studio Code as Git's default editor". Leave all other options as default.
+- You should now see Git Bash and Git Gui in your program list.
+
+![Hello py](images/git.png)
+
+- You should also see the Git Bash and Git GUI options when you right click from the File Explorer.
+- We will cover how Git and Github work together and how we can work with code repositories in the video linked down below.
