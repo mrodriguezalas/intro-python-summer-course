@@ -1,0 +1,10 @@
+Mercury,	Venus,	Earth,	Mars,	Jupiter	
+Mean distance from Sun (millions of kilometers),	57.9,	108.2,	149.6,	227.9,	778.3
+					
+Mean distance from Sun	36	67.24	92.9	141.71	483.88						
+Period of revolution	88 days	224.7 days	365.2 days	687 days	11.86 yrs
+Inclination of axis	Near 0°	3°	23°27'	25° 12'	3° 5'
+Inclination of orbit	7°	3.4°	0°	1.9°	1.3°					
+Eccentricity of orbit	0.206	0.007	0.017	0.093	0.048
+Equatorial diameter	4.880,	12.100,	12.756,	6.794,	142.800					
+Atmosphere (main components),	Virtually none,	Carbon dioxideNitrogenOxygen	Carbon dioxide,	Hydrogen, helium	
