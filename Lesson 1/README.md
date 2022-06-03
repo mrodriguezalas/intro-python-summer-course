@@ -157,4 +157,4 @@ You can leave other installation components as default. Click on Next and select
 ![Hello py](images/git.png)
 
 - You should also see the Git Bash and Git GUI options when you right click from the File Explorer.
-- We will cover how Git and Github work together and how we can work with code repositories in the video linked down below.
+- We will cover how Git and Github work together during the first lesson.
