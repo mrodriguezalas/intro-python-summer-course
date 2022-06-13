@@ -157,4 +157,15 @@ You can leave other installation components as default. Click on Next and select
 ![Hello py](images/git.png)
 
 - You should also see the Git Bash and Git GUI options when you right click from the File Explorer.
-- We will cover how Git and Github work together during the first lesson.
+ 
+ 1. Create account
+ 2. Login to Github
+ 3. From your main Github Page go to "Settings" > "SSH and GPG Keys"
+ 4. Click on "Create New SSH Key"
+ 5. Generate a new SSH key following [these instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). For my case (Windows).
+ 6. Copy the created key into your key field on your Github account.
+ 7. Go to [the main repo page](https://github.com/mrodriguezalas/intro-python-summer-course) and click on Fork. This will fork the repo to your own account.
+ 8. Go to your newly created repo and clone the repo with `git clone`.
+ 9. Add any files you want to change with `git add thefilename`, where `thefilename` is the name of the file you want to add.
+ 10. Create a commit with `git commit -m "Some descriptive message"`.
+ 11. Once you are done with your changes use `git push` to upload your changes. You will be asked your SSH key passphrase.
