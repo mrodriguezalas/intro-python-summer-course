@@ -160,4 +160,7 @@ Copy the URL from the previous image, you can paste this in your browser and see
 
 <img src="Images/release.png" alt="Release" width=800 />
 
+### Example resulting package
+If all goes well you should now have a [published package in the PyPI test repository](https://test.pypi.org/project/example2-pkg-mrodriguezalas/0.0.1/)
+
 As a final note, you can use the [Github Markdown Documentation](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to format your markdown files.
